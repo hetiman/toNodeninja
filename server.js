@@ -1,4 +1,3 @@
-
 /**
  * Module dependencies.
  */
@@ -38,5 +37,4 @@ app.get('/about', function(req, res){
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
-  console.log("　 　 　　　＿＿＿_\n　 　　　／⌒　　⌒＼\n　　　／（ ●） 　（●）＼\n　 ／::::::⌒（__人__）⌒::::: ＼ 　　あんたジャンケン弱いお！\n　 |　　　　　|r┬-|　　　　　|\n　 ＼ 　　 　 `ー'´ 　 　 ／");
 });
