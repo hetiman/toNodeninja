@@ -2,6 +2,6 @@
   "version": "v0.6.11",
   "npm": false,
   "main": "server.js",
-  "args": ["Hello Node Ninja 888"],
-  "envs": {"listenport": "8088"}
+  "args": ["toNodeninja"],
+  "envs": {"listenport": "8080"}
 }
